@@ -5,3 +5,16 @@ body {
 nav {
   color: bisque;
 }
+
+.container {
+  display: grid;
+  grid-template: 100px auto 100px / 30fr 70fr;
+  grid-template-areas:
+  "header"
+  "sidebar"
+  "main"
+  "footer";
+  gap: 10px;
+  border: 3px solid lightgray;
+  height: 100vh;
+}
