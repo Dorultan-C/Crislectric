@@ -1,20 +1,32 @@
 body {
   background-color: bisque;
+  
 }
 
 nav {
-  color: bisque;
+  color: orange;
 }
 
 .container {
   display: grid;
-  grid-template: 100px auto 100px / 30fr 70fr;
+  grid-template: auto 80fr  10fr / 100fr;
   grid-template-areas:
   "header"
-  "sidebar"
   "main"
   "footer";
   gap: 10px;
   border: 3px solid lightgray;
   height: 100vh;
 }
+
+.header {
+  background-color: rgb(138, 83, 83);
+}
+
+
+
+@Media (max-width: 500x) {
+  body {
+    flex-wrap: wrap;}
+}
+
