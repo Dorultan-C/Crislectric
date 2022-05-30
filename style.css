@@ -30,6 +30,10 @@ body {
   margin: .5rem;
 }
 
+.brand-title:hover {
+  filter: contrast(200%);
+}
+
 .navbar-links {
   height: 100%;
 }
@@ -57,6 +61,7 @@ body {
   filter: contrast(200%);
   height: fit-content;
   opacity: .7;
+  font-size: 1.1rem;
   /* background-color: rgba(169, 136, 205, 0.7); */
   border-radius: 20px;
   box-shadow: 5px 5px 8px #888888;
