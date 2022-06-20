@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 10vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(./phottos/Red_tesla_driving.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300vh;
+}
