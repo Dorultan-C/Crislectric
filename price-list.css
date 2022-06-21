@@ -1,0 +1,20 @@
+.price-list {
+  display: flex;
+  position:  relative;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-list {
+  display: flex;
+  color: rgb(7, 37, 76);
+  font-size: 2rem;
+  margin-left: 1rem;
+  border: 2px solid pink;
+
+  border-radius: 5%;
+}
+
+/* ul {
+  color: blue;
+  font-size: 1.5rem;
+} */
